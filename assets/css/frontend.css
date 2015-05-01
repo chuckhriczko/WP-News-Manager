@@ -1,0 +1,15 @@
+.news-manager-featured-container .news-manager-featured{
+				background: #f6f6f6;
+				border-radius: 12px;
+				box-shadow: 0 2px 6px 0 rgba(50, 50, 50, 0.6);
+				margin: 0 0 0 15px;
+    padding: 10px 5px 15px 20px;
+				width: 240px;
+}
+.news-manager-featured-container .news-manager-featured-content{
+				height: 115px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				width: 100%;
+}
+.news-manager-featured-container .news-manager-featured-content:after{ content: '...'; }

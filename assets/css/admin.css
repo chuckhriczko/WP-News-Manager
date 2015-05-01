@@ -1,0 +1,54 @@
+/* Post Listing Styles */
+.post-type-news .column-featured,
+.post-type-news .column-featured_order,
+.post-type-news .column-thumbnail{ width: 75px; }
+.post-type-news .column-title{ width: 350px; }
+
+/* Metabox Styles */
+.post-type-news .postbox-container #news-manager,
+.post-type-news .postbox-container #postimagediv.postbox{
+				float: left;
+				margin: 0 20px 0 0;
+				min-height: 261px;
+				width: 49%;
+}
+.post-type-news .postbox-container #postimagediv.postbox{ margin: 0; }
+.post-type-news .postbox-container #postimagediv select{ width: 100%; }
+#news-manager label{
+				cursor: default;
+				display: block;
+}
+#news-manager input{
+				display: block;
+				margin: 5px 0;
+				width: 100%;
+}
+#news-manager select{ width: 100%; }
+table #news-manager input{ width: auto; }
+#news-manager label input[type="checkbox"],
+#news-manager label input[type="radio"]{
+				display: inline-block;
+				width: auto;
+}
+.news-manager-hidden{ display: none; }
+.news-manager-visible{ display: block; }
+
+/* WP Admin Overrides for our custom post type */
+.post-type-news .misc-pub-curtime{ display: none; }
+.news_page_news-registrations table.wp-list-table{ width: 99%; }
+
+/* Genericons Overrides */
+.post-type-news .genericon{
+				font-size: 44px;
+    padding: 0 0 0 5px;
+}
+.post-type-news .genericon-checkmark{ color: #008c00; }
+.post-type-news .genericon-close{ color: #cc0000; }
+
+.column-featured span{
+				color: #f7f742;
+				display: block;
+    font-size: 35px;
+    left: 15px;
+    position: relative;
+}
